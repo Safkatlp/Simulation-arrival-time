@@ -6,3 +6,4 @@ The arrival time of a customer will be ***`the sumation of the inter-arrival tim
 
 The formula used to  calculate the arrival time of ***i***th customer is:<br/> 
 ***`arrival[i] = arrival[i-1] + inter_arrive[i]`***<br/>
+where, **i** is the index of current customer and **i-1** is the index of previous customer
